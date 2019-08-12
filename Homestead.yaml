@@ -10,9 +10,12 @@ folders:
         map: /home/chris/Projects/git/lvl_test_1/blog
         to: /home/vagrant/code
 sites:
-    -
-        map: homestead
+    -   map: homestead
         to: /home/vagrant/code/public
+
+    -   map: phpmyadmin.test
+        to: /home/vagrant/code/phpmyadmin
+
 databases:
     - homestead
 features:
