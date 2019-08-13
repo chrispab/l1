@@ -1,0 +1,56 @@
+[source](https://www.codealist.com/install-phpmyadmin-on-homestead/)
+
+
+Go to your homestead directory, for example:
+``` cd ~/Documents/Homestead ```
+    1
+    	
+```cd ~/Documents/Homestead```
+    Enter via ssh to you vagrant box
+```vagrant ssh```
+    1
+    	
+    vagrant ssh
+    Once you are connected via ssh, go to your Code directory, or your projects directory
+```cd code```
+    1
+    	
+    cd Code
+    Download and install PhpMyAdmin
+```curl -sS https://raw.githubusercontent.com/grrnikos/pma/master/pma.sh | sh```
+    1
+    	
+    curl -sS https://raw.githubusercontent.com/grrnikos/pma/master/pma.sh | sh
+    Exit from your vagrant box
+```exit```
+ 
+    	
+
+    Once you are out of the vagrant box, open your Vagrantfile on the Homestead directory and copy the IP address associated to the vagrant box, for example 127.0.0.1. Then add a new registry on your hosts file
+```sudo nano /etc/hosts```
+
+Append the following line
+
+`192.168.10.10 phpmyadmin.app`
+
+`nano ~/.homestead/Homestead.yaml`
+
+Under 'sites' add the following lines
+```
+- map: phpmyadmin.app
+   to: /home/vagrant/Code/phpmyadmin
+```
+    	
+    nano ~/.homestead/Homestead.yaml
+     
+    # Under 'sites' add the following lines
+        - map: phpmyadmin.app
+          to: /home/vagrant/Code/phpmyadmin
+
+    Reload your homestead
+```vagrant reload --provision```
+
+     
+goto;
+
+And that’s it. You have phpmyadmin installed on your Homestead.

@@ -4,17 +4,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>chrisIoT</title>
+        <title>.</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Biryani" rel="stylesheet">
 
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #252;
+                background-color: #082e08;
                 color: #98d3ee;
-                font-family: 'Nunito', sans-serif;
+                font-family: Biryani, sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                chrisIoT
+                .
                 </div>
 
                 <div class="links">
