@@ -2,48 +2,16 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>        <meta charset="utf-8">
-            <script>
-(function() {
-  var app;
-
-  $(document).ready(function() {
-    return app.init();
-  });
-
-  app = {
-    text: "Hello",
-    index: 0,
-    chars: 0,
-    speed: 200,
-    container: ".text .content",
-    init: function() {
-      this.chars = this.text.length;
-      return this.write();
-    },
-    write: function() {
-      $(this.container).append(this.text[this.index]);
-      if (this.index < this.chars) {
-        this.index++;
-        return window.setTimeout(function() {
-          return app.write();
-        }, this.speed);
-      }
-    }
-  };
-
-}).call(this);
-                          </script>
             <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>.</title>
+        <script src="/js/hab.js"></script> 
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Biryani" rel="stylesheet">
 
         <!-- Styles -->
-        <style>
-
-        </style>
+        <link rel="stylesheet" type="text/css" href="/css/hab.css">
 
 
     </head>

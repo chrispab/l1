@@ -5,9 +5,7 @@ var sass = require('gulp-sass');
 gulp.task('sass', function(cb) {
     gulp.src('blog/resources/sass/*.scss')
         .pipe(sass())
-        .pipe(gulp.dest(function(f) {
-            return f.base;
-        }));
+        .pipe(gulp.dest('./blog/public/css'));
     cb();
 });
 
