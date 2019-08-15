@@ -5,11 +5,16 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Sass Compile",
-            "type": "shell",
-            "command": "node-sass hab.scss hab.css",
-            "group": "build"
-        
+            "type": "gulp",
+            "task": "default",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
-    ]
+    ],
+
+    
+
 }

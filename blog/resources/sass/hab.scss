@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     background-color: #082e08;
     color: #98d3ee;
     font-family: Biryani, sans-serif;
@@ -40,7 +41,7 @@ html, body {
     padding: 0 25px;
     font-size: 13px;
     font-weight: 600;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -51,38 +52,38 @@ html, body {
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
-/* font-family: 'Roboto'; */
-color: #20b2e3;
+    /* font-family: 'Roboto'; */
+    color: #20b2e3;
 }
 .text {
-width: 100%;
-text-align: center;
-height: 50px;
-line-height: 50px;
-font-size: 30px;
-/* position: absolute; */
-top: 0;
-bottom: 0;
-margin: auto;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 .text .content {
-display: inline;
+    display: inline;
 }
 .text .dash {
-display: inline-block;
-height: 3px;
-width: 20px;
-background-color: #3498db;
-animation: blink 0.5s infinite linear;
+    display: inline-block;
+    height: 3px;
+    width: 20px;
+    background-color: #88c0e6;
+    animation: blink 0.5s infinite linear;
 }
 @keyframes blink {
-0% {
-opacity: 1;
-}
-99% {
-opacity: 0;
-}
-100% {
-opacity: 1;
-}
+    0% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
