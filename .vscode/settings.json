@@ -1,0 +1,12 @@
+{
+    "search.exclude": {
+        "**/phpmyadmin": true
+    },
+    "files.watcherExclude": {
+        "**/phpmyadmin": true
+    },
+    "editor.minimap.showSlider": "always",
+    "files.exclude": {
+        "**/phpmyadmin": true
+    }
+}
