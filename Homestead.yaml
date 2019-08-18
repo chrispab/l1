@@ -7,7 +7,7 @@ keys:
     - ~/.ssh/id_rsa
 folders:
     -
-        map: ~/projects/l1/blog
+        map: ~/Projects/git/l1/blog
         to: /home/vagrant/code
 sites:
     -   map: homestead
