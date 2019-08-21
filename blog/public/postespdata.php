@@ -11,14 +11,14 @@
   copies or substantial portions of the Software.
 */
 
-$servername = "localhost";
+$servername = "db5000148299.hosting-data.io";
 
 // REPLACE with your Database name
-$dbname = "REPLACE_WITH_YOUR_DATABASE_NAME";
+$dbname = "dbs143518";
 // REPLACE with Database user
-$username = "REPLACE_WITH_YOUR_USERNAME";
+$username = "dbu114597";
 // REPLACE with Database user password
-$password = "REPLACE_WITH_YOUR_PASSWORD";
+$password = "U:i_3<]Dd%Hbuo-";
 
 // Keep this API Key value to be compatible with the ESP32 code provided in the project page.
 // If you change this value, the ESP32 sketch needs to match

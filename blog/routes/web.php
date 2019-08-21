@@ -18,3 +18,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/posts/create', 'PostController@create')->name('home');
+Route::post('/posts', 'PostController@store')->name('home');
+
+//posts/create 	GET 	PostController@create 	Display a form for writing post data
+//posts 	POST 	PostController@store 	Store data into database
