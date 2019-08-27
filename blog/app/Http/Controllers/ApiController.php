@@ -8,6 +8,9 @@ use Illuminate\Http\Request;
 
 use Validator;
 
+use App\User;
+
+use Illuminate\Support\Facades\Hash;
 // namespace App\Http\Controllers\Validator; //' not found
 
 
