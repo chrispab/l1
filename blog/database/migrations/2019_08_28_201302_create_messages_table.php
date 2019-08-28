@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateMess3sTable extends Migration
+class CreateMessagesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateMess3sTable extends Migration
      */
     public function up()
     {
-        Schema::create('mess3s', function (Blueprint $table) {
+        Schema::create('messages', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('topic');
             $table->string('content');
@@ -29,6 +29,6 @@ class CreateMess3sTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('mess3s');
+        Schema::dropIfExists('messages');
     }
 }
