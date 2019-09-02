@@ -1,17 +1,17 @@
-APP_NAME=ChrisIOT
-APP_ENV=production
-APP_KEY=
+APP_NAME=ChrisIoT
+APP_ENV=homestead
+APP_KEY=base64:TflDTN/hqY2S23rNSydUOYPidi7tHfcjWZyIEoPZ2Y4=
 APP_DEBUG=true
-APP_URL=http://chrisiot.com
+APP_URL=http://homestead
 
 LOG_CHANNEL=stack
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=dbs143518
-DB_USERNAME=root
-DB_PASSWORD=U:i_3<]Dd%Hbuo-
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
 
 BROADCAST_DRIVER=log
 CACHE_DRIVER=file

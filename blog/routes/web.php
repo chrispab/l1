@@ -19,8 +19,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/posts/create', 'PostController@create')->name('home');
-Route::post('/posts', 'PostController@store')->name('home');
+Route::get('/posts/create', 'PostController@create')->name('post_create');
+Route::post('/posts', 'PostController@store')->name('post.store');
 
 //posts/create 	GET 	PostController@create 	Display a form for writing post data
 //posts 	POST 	PostController@store 	Store data into database

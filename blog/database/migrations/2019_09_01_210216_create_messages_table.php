@@ -17,7 +17,7 @@ class CreateMessagesTable extends Migration
             $table->bigIncrements('id');
             $table->string('topic');
             $table->string('content');
-            $table->dateTime('date_time', 3);
+            $table->dateTime('published_at', 3);
             $table->timestamps();
         });
     }
