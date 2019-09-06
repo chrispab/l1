@@ -28,6 +28,9 @@ class Homestead
       config.vm.network :private_network, ip: '0.0.0.0', auto_network: true
     end
 
+    # SPATIE-modification use public network
+    config.vm.network :public_network, ip: settings["public_ip"], bridge: 'enp10s0'
+
     # Configure Additional Networks
     if settings.has_key?('networks')
       settings['networks'].each do |network|
